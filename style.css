@@ -1,0 +1,62 @@
+/* Grundlegende Formatierung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Kopfzeile */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hauptbereich */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+/* Fußzeile */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* Zusätzliche Anpassungen */
+section {
+    margin-bottom: 20px;
+}
+
+/* Kleine Bildschirme */
+@media screen and (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
