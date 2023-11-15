@@ -1,46 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTW Saar Campus Rotenbühl Wegweiser</title>
-</head>
-<body>
-    <header>
-        <h1>Willkommen zum HTW Saar Campus Rotenbühl Wegweiser</h1>
-        <nav>
-            <ul>
-                <li><a href="#mensa">Mensa</a></li>
-                <li><a href="#druckerraum">Druckerräume</a></li>
-                <li><a href="#studienberatung">Studienberatung</a></li>
-                <!-- Weitere Navigationslinks können hier hinzugefügt werden -->
-            </ul>
-        </nav>
-    </header>
+/* Grundlegende Formatierung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <main>
-        <section id="mensa">
-            <h2>Mensa</h2>
-            <p>Hier finden Sie Informationen zu Standort und Öffnungszeiten der Mensa.</p>
-            <!-- Weitere Mensa-Informationen -->
-        </section>
+/* Kopfzeile */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
 
-        <section id="druckerraum">
-            <h2>Druckerräume</h2>
-            <p>Standorte und Nutzungszeiten der Druckerräume auf dem Campus.</p>
-            <!-- Weitere Informationen zu Druckerräumen -->
-        </section>
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-        <section id="studienberatung">
-            <h2>Studienberatung</h2>
-            <p>Informationen zur Studienberatung, inklusive Standort und Sprechzeiten.</p>
-            <!-- Weitere Informationen zur Studienberatung -->
-        </section>
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
 
-        <!-- Weitere Abschnitte können hier hinzugefügt werden -->
-    </main>
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-    <footer>
-        <p>&copy; 2023 HTW Saar Campus Rotenbühl</p>
-    </footer>
-</body>
-</html>
+/* Hauptbereich */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+/* Fußzeile */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* Zusätzliche Anpassungen */
+section {
+    margin-bottom: 20px;
+}
+
+/* Kleine Bildschirme */
+@media screen and (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
 
