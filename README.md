@@ -1,2 +1,47 @@
 # HTWwegweiser
 hallo 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTW Saar Campus Rotenbühl Wegweiser</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen zum HTW Saar Campus Rotenbühl Wegweiser</h1>
+        <nav>
+            <ul>
+                <li><a href="#mensa">Mensa</a></li>
+                <li><a href="#druckerraum">Druckerräume</a></li>
+                <li><a href="#studienberatung">Studienberatung</a></li>
+                <!-- Weitere Navigationslinks können hier hinzugefügt werden -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mensa">
+            <h2>Mensa</h2>
+            <p>Hier finden Sie Informationen zu Standort und Öffnungszeiten der Mensa.</p>
+            <!-- Weitere Mensa-Informationen -->
+        </section>
+
+        <section id="druckerraum">
+            <h2>Druckerräume</h2>
+            <p>Standorte und Nutzungszeiten der Druckerräume auf dem Campus.</p>
+            <!-- Weitere Informationen zu Druckerräumen -->
+        </section>
+
+        <section id="studienberatung">
+            <h2>Studienberatung</h2>
+            <p>Informationen zur Studienberatung, inklusive Standort und Sprechzeiten.</p>
+            <!-- Weitere Informationen zur Studienberatung -->
+        </section>
+
+        <!-- Weitere Abschnitte können hier hinzugefügt werden -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 HTW Saar Campus Rotenbühl</p>
+    </footer>
+</body>
+</html>
